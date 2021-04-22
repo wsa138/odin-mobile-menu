@@ -50,5 +50,21 @@ html, body{
 }
 
 .second-menu-options {
-  
+  position: fixed;
+  animation: expand-menu .5s ease 1;
+  animation-fill-mode: forwards;
+  color: red;
+}
+
+@keyframes expand-menu {
+  from {
+    font-size: 1rem;
+    bottom: 50px;
+    right: 50px;
+  }
+  to {
+    font-size: 3rem;
+    bottom: 100px;
+    right: 30px;
+  }
 }
