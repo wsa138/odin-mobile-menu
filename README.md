@@ -1,0 +1,1 @@
+The purpose of this project is to create a sample mobile menu. I will be using Font Awesome icons in this project.
