@@ -53,17 +53,26 @@ html, body{
   position: fixed;
   animation: expand-menu .5s ease 1;
   animation-fill-mode: forwards;
-  color: red;
+  display: none;
+  flex-direction: column;
+}
+
+.second-menu-item {
+  color: purple;
+  border-radius: 50%;
+  animation: expand-menu .5s ease 1;
+  animation-fill-mode: forwards;
+  margin-top: .25rem;
 }
 
 @keyframes expand-menu {
   from {
-    font-size: 1rem;
+    font-size: .5rem;
     bottom: 50px;
     right: 50px;
   }
   to {
-    font-size: 3rem;
+    font-size: 2rem;
     bottom: 100px;
     right: 30px;
   }

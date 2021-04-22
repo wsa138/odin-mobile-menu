@@ -1,1 +1,1 @@
-The purpose of this project is to create a sample mobile menu. I will be using Font Awesome icons in this project.
+The purpose of this project is to create a sample mobile menu. I will be using Font Awesome icons in this project. There will be two different styles of mobile menu which have their displays swap any time a menu option is clicked.
