@@ -9,7 +9,7 @@ html, body{
   bottom: 0;
   width: 100vw;
   height: 10vh;
-  display: flex;
+  display: none;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
@@ -31,4 +31,24 @@ html, body{
 .menu-item:hover {
   cursor: pointer;
   background-color: rgb(121, 154, 224);
+}
+
+
+/* Second menu styling */
+
+.second-menu-btn {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+
+.fa-bars {
+  font-size: 2.25rem;
+}
+
+.second-menu-options {
+  
 }
