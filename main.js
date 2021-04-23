@@ -1,7 +1,6 @@
 const secondMenuBtn = document.querySelector('.second-menu-btn');
 const secondMenuOptions = document.querySelector('.second-menu-options');
 const bottomNav = document.querySelector('.bottom-nav-container');
-const menuItem = document.querySelector('.menu-item');
 
 secondMenuBtn.addEventListener('click', () => {
   if (secondMenuOptions.style.display === 'flex') {

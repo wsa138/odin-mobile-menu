@@ -30,7 +30,7 @@ html, body{
 
 .menu-item:hover {
   cursor: pointer;
-  background-color: rgb(121, 154, 224);
+  background-color: rgb(109, 146, 224);
 }
 
 
@@ -43,6 +43,12 @@ html, body{
   position: fixed;
   bottom: 30px;
   right: 30px;
+  background-color: rgb(6, 80, 238);
+  color: rgb(235, 227, 227);
+}
+
+.second-menu-btn:hover {
+  background-color: rgb(75, 124, 230);
 }
 
 .fa-bars {
@@ -58,11 +64,16 @@ html, body{
 }
 
 .second-menu-item {
-  color: purple;
+  color: rgb(235, 227, 227);
+  background-color: rgb(108, 145, 224);
   border-radius: 50%;
   animation: expand-menu .5s ease 1;
   animation-fill-mode: forwards;
   margin-top: .25rem;
+}
+
+.second-menu-item:hover {
+  background-color: rgb(75, 124, 230);
 }
 
 @keyframes expand-menu {
