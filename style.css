@@ -1,4 +1,5 @@
-html, body{
+html,
+body {
   padding: 0;
   margin: 0;
 }
@@ -21,7 +22,7 @@ html, body{
   height: 100%;
   border: 2px solid black;
   box-sizing: border-box;
-  font-size: 2rem;
+  font-size: 5em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -33,18 +34,18 @@ html, body{
   background-color: rgb(109, 146, 224);
 }
 
-
 /* Second menu styling */
 
 .second-menu-btn {
-  width: 4rem;
-  height: 4rem;
+  width: 4em;
+  height: 4em;
   border-radius: 50%;
   position: fixed;
   bottom: 30px;
   right: 30px;
   background-color: rgb(6, 80, 238);
   color: rgb(235, 227, 227);
+  font-size: 2em;
 }
 
 .second-menu-btn:hover {
@@ -52,12 +53,12 @@ html, body{
 }
 
 .fa-bars {
-  font-size: 2.25rem;
+  font-size: 2.25em;
 }
 
 .second-menu-options {
   position: fixed;
-  animation: expand-menu .5s ease 1;
+  animation: expand-menu 0.5s ease 1;
   animation-fill-mode: forwards;
   display: none;
   flex-direction: column;
@@ -67,9 +68,11 @@ html, body{
   color: rgb(235, 227, 227);
   background-color: rgb(108, 145, 224);
   border-radius: 50%;
-  animation: expand-menu .5s ease 1;
+  animation: expand-menu 0.5s ease 1;
   animation-fill-mode: forwards;
-  margin-top: .25rem;
+  margin-top: 0.5rem;
+  height: 4em;
+  width: 4em;
 }
 
 .second-menu-item:hover {
@@ -78,13 +81,13 @@ html, body{
 
 @keyframes expand-menu {
   from {
-    font-size: .5rem;
+    font-size: 0.5em;
     bottom: 50px;
-    right: 50px;
+    right: 75px;
   }
   to {
     font-size: 2rem;
-    bottom: 100px;
+    bottom: 175px;
     right: 30px;
   }
 }
